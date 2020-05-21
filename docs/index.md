@@ -94,6 +94,12 @@ Ensure you include comments about the choices you've made along the way.*
 
 <img src="img/seam_boddice.jpg" width="300" height="500"> <img src="img/boddice.jpg" width="300" height="500">
 
+<img src="img/sam.jpg" width="300" height="300"> <img src="img/mosfet.jpg" width="300" height="500">
+
+<img src="img/circuit.jpg" width="300" height="500"> <img src="img/circuit_2.jpg" width="300" height="500">
+
+<img src="img/skirt.jpg" width="300" height="500"> 
+
 
 ## Design process discussion ##
 For this project I decided to create a dress that displays different colours depending on the amount of light. I had two different ideas for now to illuminate the dress.
