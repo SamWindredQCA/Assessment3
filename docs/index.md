@@ -101,13 +101,18 @@ Ensure you include comments about the choices you've made along the way.*
 
 <img src="img/seam_boddice.jpg" width="300" height="500"> <img src="img/boddice.jpg" width="300" height="500">
 
-<img src="img/skirt.jpg" width="300" height="500"> 
-
-## Mosfet Setup ##
-<img src="img/mosfet.jpg" width="300" height="500">
+<img src="img/skirt.jpg" width="300" height="500"> <img src="img/dress_final.jpg" width="300" height="500">
 
 ## Painting ##
 <img src="img/sam.jpg" width="300" height="300">
+
+## Final Circuit ##
+<img src="img/mosfet.jpg" width="300" height="500"> <img src="img/mosfet_diagram.png" width="300" height="500">
+*Mosfet yes*
+
+<img src="img/battery_pack_c.jpg" width="300" height="500">
+
+<img src="img/circuit_final.jpg" width="300" height="500"> <img src="img/circuit_final_on.jpg" width="300" height="500">
 
 
 ## Design process discussion ##
@@ -117,7 +122,5 @@ For this project I decided to create a dress that displays different colours dep
 
 The lighting option I chose for this project was the cheapest lighting option that I could come up with and the most effective with the materials that I have.
 
-## Next steps ##
-- Complete sewing the dress
-- Sew the electronics into the dress
-- Film the dress in action
+## Final Product ##
+<video src="video/dress_lighting.mp4" width="512" height="256" controls preload></video>
