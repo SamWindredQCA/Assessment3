@@ -1,8 +1,4 @@
-# 1701QCA Making Interaction - Assessment 2 workbook
-
-You will use this workbook to keep track of your progress through the course and also as a process journal to document the making of your projects. The comments in italics throughout the template give suggestions about what to include. Feel free to delete those instructions when you have completed the sections.
-
-When you have completed the template, submit the link to the GitHub Pages site for this repository as a link in Learning@Griffith. The link should be something like [https://qcainteractivemedia.github.io/1701QCA-Assessment2/](https://qcainteractivemedia.github.io/1701QCA-Assessment2/) where `qcainteractivemedia` is replaced with your GitHub username and `1701QCA-Assessment2` is replaced with whatever you called the repository this template is contained in when you set it up.
+# 1701QCA Making Interaction - Assessment 3 workbook
 
 ## Project working title ##
 LED dress
@@ -39,6 +35,10 @@ Watching this video gave me an insight on how cool LED's in fabric could look. F
 - Micro:bit experiment 2
 - Micro:bit experiment 9
   - Capacitor charge circuit
+  
+  ### Tutorials ### 
+  - [Transistors] (https://learn.sparkfun.com/tutorials/transistors)
+ - [Switches] (https://learn.sparkfun.com/tutorials/transistors#applications-i-switches)
 
 ### *Brief resource name/description* ###
 
@@ -84,21 +84,30 @@ Ensure you include comments about the choices you've made along the way.*
 
 *You will probably have a range of images and screenshots. Any test videos should be uploaded to YouTube or other publicly accessible site and a link provided here.*
 
+
+## Beginning Circuitry ##
 <video src="video/light-led-switch.mp4" width="512" height="256" controls preload></video>
-
-<img src="img/Pattern_Pieces.jpg" width="300" height="500"> <img src="img/Pattern_Pieces_2.jpg" width="300" height="500">
-
-<img src="img/Pattern_Pieces_3.jpg" width="300" height="500"> <img src="img/LED_warm_cool.jpg" width="300" height="500">
-
-<img src="img/sewing.jpg" width="300" height="500"> <img src="img/sewing_2.jpg" width="300" height="500">
-
-<img src="img/seam_boddice.jpg" width="300" height="500"> <img src="img/boddice.jpg" width="300" height="500">
-
-<img src="img/sam.jpg" width="300" height="300"> <img src="img/mosfet.jpg" width="300" height="500">
+*Video Description*
 
 <img src="img/circuit.jpg" width="300" height="500"> <img src="img/circuit_2.jpg" width="300" height="500">
 
+## Pattern Pieces ##
+<img src="img/Pattern_Pieces.jpg" width="300" height="500"> <img src="img/Pattern_Pieces_2.jpg" width="300" height="500">
+
+<img src="img/Pattern_Pieces_3.jpg" width="300" height="500"> 
+
+## Sewing ##
+<img src="img/sewing.jpg" width="300" height="500"> <img src="img/sewing_2.jpg" width="300" height="500"> 
+
+<img src="img/seam_boddice.jpg" width="300" height="500"> <img src="img/boddice.jpg" width="300" height="500">
+
 <img src="img/skirt.jpg" width="300" height="500"> 
+
+## Mosfet Setup ##
+<img src="img/mosfet.jpg" width="300" height="500">
+
+## Painting ##
+<img src="img/sam.jpg" width="300" height="300">
 
 
 ## Design process discussion ##
