@@ -87,28 +87,94 @@ Ensure you include comments about the choices you've made along the way.*
 
 ## Beginning Circuitry ##
 <video src="video/light-led-switch.mp4" width="512" height="256" controls preload></video>
-*Video Description*
+
+In the beginning I started with a simple circuit based off tutorials in the micro:bit experiment book. This helped me gain a basic understanding of what was needed for this project.
+
+Parts used:
+- 2 LED lights
+- Micro:bit
+- Light sensor
+
+The code for the project is linked below:
+```javascript
+let percentage = 0
+let cap_voltage = 0
+let on_perc = 30
+
+basic.forever(function () {
+
+    cap_voltage = pins.analogReadPin(AnalogPin.P0)
+    percentage = cap_voltage / 10
+
+    //basic.showNumber(cap_voltage)
+
+    if (percentage > on_perc) {
+
+        pins.digitalWritePin(DigitalPin.P1, 0)
+        pins.digitalWritePin(DigitalPin.P2, 1)
+
+        basic.showLeds(`
+            # . # . #
+            . # # # .
+            # # # # #
+            . # # # .
+            # . # . #
+            `)
+    } else {
+
+        pins.digitalWritePin(DigitalPin.P1, 1)
+        pins.digitalWritePin(DigitalPin.P2, 0)
+
+        basic.showLeds(`
+            # # # . .
+            . # # # .
+            . . # # .
+            . # # # .
+            # # # . .
+            `)
+    }
+})
+```
 
 <img src="img/circuit.jpg" width="300" height="500"> <img src="img/circuit_2.jpg" width="300" height="500">
 
+
 ## Pattern Pieces ##
+For this project I used a pattern from *Kwik Sew* in the style K4001 version B. This created the base for this project. I used this pattern because I have based a few of my dresses from it before my project.
+
 <img src="img/Pattern_Pieces.jpg" width="300" height="500"> <img src="img/Pattern_Pieces_2.jpg" width="300" height="500">
 
 <img src="img/Pattern_Pieces_3.jpg" width="300" height="500"> 
 
+
 ## Sewing ##
 <img src="img/sewing.jpg" width="300" height="500"> <img src="img/sewing_2.jpg" width="300" height="500"> 
 
+In this photo I am sewing the lining of the belt to the velvet on the outside. This will be where the electronics will be held later.
+
+Here I am cutting out the boddice pieces (x1 front, x2 1/2 pieces) I will later stitch in buttons and button holes to get in and out of the dress.
+
 <img src="img/seam_boddice.jpg" width="300" height="500"> <img src="img/boddice.jpg" width="300" height="500">
 
-<img src="img/skirt.jpg" width="300" height="500"> <img src="img/dress_final.jpg" width="300" height="500">
+In this image I have put right-sides of the fabric together to hand stitch the belt to the boddice.
+
+This is the final result of the boddice being stitched to the belt.
+
+<img src="img/skirt.jpg" width="300" height="500"> <img src="img/dress_final.JPG" width="300" height="500">
+
+This was my third attempt at trying to pin and stitch this tulle. Due to my sewing machine being too old to sew it together by itself, I had to result to pinning the tulle to the base skirt and hand stitching the whole dress together.
+
+This is the final outcome of the dress all stitched together without the circuit built in.
+
 
 ## Painting ##
+In this photo I am painting the lights that will go into the dress.
 <img src="img/sam.jpg" width="300" height="300">
 
+
 ## Final Circuit ##
+Below is the final circuit and the circuit for the mosfet that Ged provided. For this circuit I required two battery packs, one for the microbit and one to power the lights.
 <img src="img/mosfet.jpg" width="300" height="500"> <img src="img/mosfet_diagram.png" width="300" height="500">
-*Mosfet yes*
 
 <img src="img/battery_pack_c.jpg" width="300" height="500">
 
